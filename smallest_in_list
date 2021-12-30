@@ -1,0 +1,11 @@
+n = int(input('Enter number: '))
+list = []
+for x in range(n):
+  numbers = int(input(f'Enter {x + 1}. number: '))
+  list.append(numbers)
+
+min = list[0]
+for a in list:
+  if a < min:
+    min = a
+print('The smallest number in a list is', min)
