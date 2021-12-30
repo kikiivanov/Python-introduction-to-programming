@@ -1,0 +1,11 @@
+n = int(input('Enter number: '))
+list = []
+for x in range(n):
+  numbers = int(input(f'Enter {x + 1}. number: '))
+  list.append(numbers)
+
+mult = 1
+for i in list:
+    mult *= i
+print(list)
+print('Product of all numbers in a list is', mult)
