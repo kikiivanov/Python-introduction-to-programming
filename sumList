@@ -8,4 +8,4 @@ sum = 0
 for i in list:
     sum += i
 print(list)
-print('Sum of all elements in a list is', sum)
+print('Sum of all numbers in a list is', sum)
