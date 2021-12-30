@@ -1,0 +1,11 @@
+n = int(input('Enter number: '))
+list = []
+for x in range(n):
+  numbers = int(input(f'Enter {x + 1}. number: '))
+  list.append(numbers)
+
+sum = 0
+for i in list:
+    sum += i
+print(list)
+print('Sum of all elements in a list is', sum)
