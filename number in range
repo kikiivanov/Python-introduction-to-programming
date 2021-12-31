@@ -1,0 +1,10 @@
+def test(n):
+    return n
+
+a, b = map(int, input('Enter a, b: ').split(', '))
+n = int(input('Enter number: '))
+if n in range(a, b + 1):
+    print(f'{n} is in a given range!')
+else:
+    print(f'{n} is not in a given range!')
+test(n)
