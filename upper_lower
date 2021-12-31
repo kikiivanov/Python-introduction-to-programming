@@ -1,0 +1,10 @@
+str = input('Enter string: ')
+u_case = 0
+l_case = 0
+for a in str:
+    if a.isupper():
+        u_case +=1
+    elif a.islower():
+        l_case +=1
+print('No. of Upper case characters is ', u_case)
+print('No. of Lower case characters is ', l_case)
