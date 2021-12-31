@@ -1,3 +1,6 @@
+#def upper_lower(str):
+#    return str
+
 str = input('Enter string: ')
 u_case = 0
 l_case = 0
@@ -6,5 +9,6 @@ for a in str:
         u_case +=1
     elif a.islower():
         l_case +=1
+#upper_lower(str)
 print('No. of Upper case characters is ', u_case)
 print('No. of Lower case characters is ', l_case)
