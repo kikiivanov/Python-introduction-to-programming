@@ -1,0 +1,14 @@
+def evenNumbers(list):
+    return list
+    
+n = int(input('Enter number of elements in a list: '))
+list = []
+evenList = []
+for i in range(n):
+    numbers = int(input(f'Enter {i+1}. number: '))
+    list.append(numbers)
+    if numbers % 2 == 0:
+        evenList.append(numbers)
+    
+print('Given list is', evenNumbers(list))
+print('List with even numbers is', evenList)
