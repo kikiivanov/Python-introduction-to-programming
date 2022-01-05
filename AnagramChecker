@@ -1,0 +1,8 @@
+# Anagram Checker
+
+anagram1 = input('Enter anagram: ')
+anagram2 = input('Enter anagram: ')
+if sorted(anagram1) == sorted(anagram2):
+    print(f'{anagram1} and {anagram2} are anagrams.')
+else:
+    print(f'{anagram1} and {anagram2} are not anagrams.')
